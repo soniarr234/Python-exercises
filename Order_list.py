@@ -11,7 +11,7 @@ def orderList (list_nums, order):
       elif order == "Desc" and list_nums[i] < list_nums[j]:
         print()
         temp = list_nums[j]
-				list_nums[j] = list_nums[i]
+		list_nums[j] = list_nums[i]
         list_nums[i] = temp
         # Esta forma de intercambiar valores de forma asincrona solo lo hace python
         #list_nums[il, list nums[i] = list_nums[i], list_nums[i]
